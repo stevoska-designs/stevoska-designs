@@ -94,6 +94,7 @@ html {
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
+  width: 100%;
 }
 
 #header {
@@ -738,7 +739,9 @@ h3 {
   gap: 30px;
   margin: 50px 0;
 }
-
+.popup-left img, .popup-right img{
+  max-width: 100%;
+}
 .popup-container {
   display: flex;
   gap: 30px;
